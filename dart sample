@@ -1,0 +1,11 @@
+class person{
+ String name;
+ int age;
+ String dob;
+ 
+ Person({this.name, this.age, this.dob})
+}
+main(){
+var details = Person("venky", 21,"8th Feb" );
+print(details);
+}
